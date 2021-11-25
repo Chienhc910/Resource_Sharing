@@ -1,0 +1,66 @@
+/* 
+    Created on : May 16, 2021, 8:47:53 PM
+    Author     : 9550
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search{
+    /*padding: 20px 90px;*/
+}
+
+.search > form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.search form .form-select{
+    width: 200px;
+}
+.search form span{
+    margin-right: 7px;
+}
+
+.request {
+    position: fixed;
+    top: 200%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.request .wrapper{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.request .wrapper button{
+    margin-top: 20px; 
+}
+.overplay{
+    position: fixed;
+    top: 200%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+@media (max-width: 900px){
+    .search{
+        padding: 20px 0;
+    }
+}
