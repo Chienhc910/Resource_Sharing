@@ -2,7 +2,9 @@
 
 ## Welcome. 
 Review: A website to share the company’s resource 
+
 labwed1.sql helps you to create a database for your sales.
+
 The java file helps you to run the project on java(netbeans) environment.
 ##_The README.md file itself displays the contents of this report. It acts as the homepage of this repo *All project functions will be listed:_
 
